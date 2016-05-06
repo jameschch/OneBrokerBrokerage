@@ -11,9 +11,14 @@ namespace OneBrokerBrokerage.Tests
     [TestFixture()]
     public class BaseRequestTests
     {
+
+        BaseRequest unit = new BaseRequest();
+
         [Test()]
         public void GetAccountInfoTest()
         {
+            var actual = unit.GetAccountInfo().Result;
+
             throw new NotImplementedException();
         }
 
