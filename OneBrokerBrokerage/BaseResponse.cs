@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace OneBrokerBrokerage
 {
 
-    public abstract class BaseResponse
+    public abstract class BaseResponse : OneBrokerBrokerage.IBaseResponse
     {
         public DateTime server_time { get; set; }
         public bool error { get; set; }

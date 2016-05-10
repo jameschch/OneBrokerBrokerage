@@ -14,7 +14,7 @@ namespace OneBrokerBrokerage
     public class InfoResponse
     {
         public string username { get; set; }
-        public string balance_btc { get; set; }
+        public decimal balance_btc { get; set; }
         public string email { get; set; }
         public string deposits_unconfirmed_btc { get; set; }
         public DateTime registered_since { get; set; }

@@ -50,6 +50,8 @@
     <Compile Include="Detail.cs" />
     <Compile Include="Edit.cs" />
     <Compile Include="GetBars.cs" />
+    <Compile Include="IBaseRequest.cs" />
+    <Compile Include="IBaseResponse.cs" />
     <Compile Include="Info.cs" />
     <Compile Include="List.cs" />
     <Compile Include="ListHistory.cs" />
